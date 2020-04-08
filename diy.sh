@@ -35,10 +35,11 @@ git clone https://github.com/rosywrt/luci-theme-rosy.git package/kleinersource/l
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/kleinersource/luci-app-koolproxyR
 
 # K3
+rm -rf package/lean/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl package/kleinersource/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build package/kleinersource/k3screenctrl_build
 git clone https://github.com/lwz322/luci-app-k3screenctrl package/kleinersource/luci-app-k3screenctrl
-
+git clone https://github.com/tty228/luci-app-serverchan.git    package/kleinersource/luci-app-serverchan
 
 # 刷新&安装源
 ./scripts/feeds update -a
