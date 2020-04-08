@@ -39,9 +39,6 @@ git clone https://github.com/lwz322/k3screenctrl package/kleinersource/k3screenc
 git clone https://github.com/lwz322/k3screenctrl_build package/kleinersource/k3screenctrl_build
 git clone https://github.com/lwz322/luci-app-k3screenctrl package/kleinersource/luci-app-k3screenctrl
 
-# Docker
-# git clone  https://github.com/lisaac/luci-lib-docker.git package/kleinersource/luci-lib-docker
-# git clone  https://github.com/lisaac/luci-app-dockerman.git package/kleinersource/luci-app-dockerman        
 
 # 刷新&安装源
 ./scripts/feeds update -a
