@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 # 修改默认 IP
-sed -i 's/192.168.1.1/10.10.10.111/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/10.10.10.111/g' package/base-files/files/bin/config_generate
 
 # 更改默认主题为 Argon
 rm -rf package/lean/luci-theme-argon  
@@ -26,7 +26,7 @@ git clone https://github.com/vernesong/OpenClash.git package/kleinersource/OpenC
 git clone https://github.com/destan19/OpenAppFilter.git package/kleinersource/OpenAppFilter
 
 # Rosy 主题
-git clone https://github.com/rosywrt/luci-theme-rosy.git package/kleinersource/luci-theme-rosy
+#git clone https://github.com/rosywrt/luci-theme-rosy.git package/kleinersource/luci-theme-rosy
 
 # SmartDNS
 # git clone https://github.com/RealKiro/Luci-SmartDNS.git package/kleinersource/Luci-SmartDNS
